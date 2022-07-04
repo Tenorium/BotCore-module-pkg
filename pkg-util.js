@@ -211,7 +211,7 @@ export const createDefaultData = function () {
     !fs.existsSync(sourcesPath) && fs.writeFileSync(sourcesPath, JSON.stringify(
         [
             {
-                "url": "https://tenorium.net/repo/",
+                "url": "https://api.tenorium.net/repo/",
                 "branches": ["general", "experimental"],
                 "active-branches": ["general"]
             }
